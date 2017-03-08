@@ -1,0 +1,32 @@
+node {
+    fill-color: red;
+    size: 25px;
+    stroke-mode: plain;
+    stroke-color: green;
+    stroke-width: 100px;
+}
+
+node#node2 {
+    z-index: 2;
+    fill-color: green;
+}
+
+node.cls {
+    fill-color: blue;
+}
+
+edge {
+    fill-color: #b3b3b3;
+    size: 2px;
+}
+
+edge#edge12 {
+    fill-color: black;
+    z-index: 1;
+}
+
+edge#edge23{
+    fill-color: black;
+    z-index: 3;
+}
+
